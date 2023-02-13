@@ -1,0 +1,18 @@
+/*Direct parent-child relationship*/
+h1{
+    color: red;
+}
+h2{
+    color: gray;
+}
+
+h2 + h2{
+    color: blue;
+}
+section article > h2{
+    color: pink;
+}
+article  h2{
+    color: green;
+}
+
