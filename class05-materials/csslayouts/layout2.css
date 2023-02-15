@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+header, footer{
+    height: 100px;
+    border: 3px solid black;
+    clear: both;
+}
+#uno{
+    height: 200px;
+    border: 3px solid black;
+}
+#dos > section + section{
+    height: 300px;
+    width: 65%;
+    float: left;
+    border: 3px solid black;
+
+}
+#dos section{
+    height: 300px;
+    width: 35%;
+    float: left;
+    border: 3px solid black;
+}
