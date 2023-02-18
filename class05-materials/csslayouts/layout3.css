@@ -18,3 +18,10 @@ section{
     border: 3px solid black;
     float: left;
 }
+
+@media screen and (max-width: 600px) {
+    section{
+        background-color: green;
+    }
+    
+}
