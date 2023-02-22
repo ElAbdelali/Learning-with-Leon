@@ -30,13 +30,56 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
+  height: 40px;
+  background: black;
+  color: white;
+  text-transform: none;
+}
+nav *{
+  float: left;
+  width: 10%;
+  color: white;
+  display: block;
 
 }
-
-footer {
-
+nav ul{
+  width: 50%;
 }
-
+ul > li{
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+  border-
+  
+}
+nav select{
+  width: 50%;
+}
+nav form input{
+  width: 100%;
+}
+main + section > section{
+  width: 33.3333%;
+  float: left;
+}
+main > section{
+  width: 50%;
+  float: left;
+}
+main section + section section{
+  width: 30%;
+  height: 250px;
+  float: left;
+  border: 1px solid black;
+}
+nav > img{
+  width: 4%;
+}
+li > a{
+  text-decoration: none;
+}
+h4{
+  float: right;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
