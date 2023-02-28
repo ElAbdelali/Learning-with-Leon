@@ -21,14 +21,12 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-
-}
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+/*
 header {
   height: 40px;
   background: black;
@@ -40,7 +38,6 @@ nav *{
   width: 10%;
   color: white;
   display: block;
-
 }
 nav ul{
   width: 50%;
@@ -71,13 +68,50 @@ main section + section section{
   border: 1px solid black;
 }
 nav > img{
-  width: 4%;
+  width: 7%;
+
 }
 li > a{
   text-decoration: none;
 }
 h4{
   float: right;
+}
+main > section{
+  position: relative;
+}
+section > h2{
+  position: absolute;
+  bottom: 17px;
+}
+h3{
+  display: inline;
+}
+.bottom{
+  display: block;
+}
+.bottom section{
+  float: left;
+}
+.bottom h3{
+  display: inline-block;
+}
+.bottom section{
+  width: 33.3333%;
+}
+*/
+
+.bottom > section img{
+  float: left;
+}
+.bottom section > h3{
+  display: inline-block;
+}
+.bottom section > h2{
+  position: absolute;
+}
+.bottom{
+  display: block;
 }
 /******************************************
 /* ADDITIONAL STYLES
