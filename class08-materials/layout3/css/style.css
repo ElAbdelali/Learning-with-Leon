@@ -1,21 +1,7 @@
 /* Box Model Hack */
-* {
-  box-sizing: border-box;
-}
 
 /* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
 
-.clear {
-	clear: both;
-}
 
 /******************************************
 /* BASE STYLES
@@ -26,80 +12,62 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+main{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.navbarContainer{
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+}
 
-header {
-  height: 40px;
-  background: black;
+.listContainer{
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
   color: white;
-  text-transform: none;
+  justify-content: space-between;
+  flex-basis: 1;
 }
-nav *{
-  float: left;
-  width: 10%;
-  color: white;
-  display: block;
-}
-nav ul{
-  width: 50%;
-}
-ul > li{
-  border-right: 1px solid grey;
-  border-left: 1px solid grey;
-  
-}
-nav select{
-  width: 50%;
-}
-nav form input{
+.midSection{
   width: 100%;
 }
-main + section > section{
-  width: 33.3333%;
-  float: left;
-}
-main > section{
+.lefthalf{
   width: 50%;
-  float: left;
 }
-main section + section section{
-  width: 30%;
-  height: 250px;
-  float: left;
+.welcomeDate{
+  display: flex;
+  justify-content: space-between;
+}
+.midSection{
+  display: flex;
   border: 1px solid black;
 }
-nav > img{
-  width: 7%;
+.firsthalf{
+  border: 1px solid black;
+}
+.secondhalf{
+  border: 1px solid blue;
+  display: flex;
+  flex-wrap: wrap;  
+  align-content: flex-end;
+}
+.fourth{
+  width: 100%;
+  height: 100%;
+}
+.uaeIsrael img{
+  display: flex;
+  width: 100%;
+}
 
-}
-li > a{
-  text-decoration: none;
-}
-h4{
-  float: right;
-}
-main > section{
+.textContainer{
   position: relative;
-}
-section > h2{
-  position: absolute;
-  bottom: 17px;
-}
-h3{
-  display: inline;
-}
-.bottom{
-  display: block;
-}
-.bottom section{
-  float: left;
-}
-.bottom h3{
-  display: inline-block;
-}
-.bottom section{
-  width: 33.3333%;
-}
-
+  bottom: 50px;
 }
 /******************************************
 /* ADDITIONAL STYLES
